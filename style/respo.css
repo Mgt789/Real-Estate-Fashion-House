@@ -1,0 +1,168 @@
+/* Small size display */
+@media (max-width: 767.98px) {
+
+    /* banner */
+    .banner-img img{
+        height: 555px;
+    }
+    /* banner-end */
+
+    /* about */
+    .about-us {
+        transform: translateY(0%);
+    }
+
+    .about-text h1 {
+        margin: 0;
+        padding-bottom: 50px;
+        text-align: right;
+        margin-left: 25px;
+        margin-top: 50px;
+        margin-right: 5px;
+    }
+
+    /* about-end */
+
+    /* design */
+
+    .design-img-first {
+        transform: translateY(0%);
+        padding-top: 50px;
+    }
+
+    .design-text-first h3 {
+        font-size: 2.6em;
+        margin: 52px 0px 0px 16px;
+    }
+
+    .design-text-first p {
+        margin: 0px;
+    }
+
+    .design-text-second h3 {
+        font-size: 2.6em;
+        margin: 100px 0px 0px 0px;
+    }
+
+    .design-text-second .btn {
+        margin-bottom: 20px;
+    }
+
+    /* design-end */
+
+    /* How it work  */
+
+    .work-text h3 {
+        font-size: 2.7em;
+        margin: 0px 15px 5px;
+    }
+    .work-text p {
+        margin: 0px 15px 0px;
+    }
+    .work-text .btn {
+        margin: 15px 15px 0px;
+    }
+    .work-image img {
+        margin: 15px auto 0px 0;
+    }
+
+    /* How it work-end */
+
+    /* join us */
+    .form{
+        margin: 0;
+    }
+    /* join us-end */
+
+    /* contact us  */
+    .contact-img img {
+        width: 254px;
+        margin: -57px auto 30px;
+    }
+    .contact-text{
+        text-align: center;
+    }
+    /* contact us-end */
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media screen and (min-device-width: 768px) and (max-device-width: 992px) {
+
+    /* about */
+    .about-us h1 {
+        font-size: 2em;
+    }
+
+    .about-us span {
+        font-size: 1em;
+    }
+
+    .about-text h1 {
+        font-size: 2.5em;
+        margin: 100px 0px 0px 0px;
+        text-align: right;
+    }
+
+    /* about-end */
+
+    /* design */
+    .design-img-first {
+        transform: translateY(0%);
+        padding-top: 50px;
+    }
+
+    .design-text-first h3 {
+        font-size: 2.5em;
+        margin: 52px 0px 0px 16px;
+    }
+
+    .design-text-first p {
+        font-size: 17px;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .design-text-second p {
+        font-size: 17px;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .design-text-second h3 {
+        font-size: 2.5em;
+        margin: 100px 0px 0px 0px;
+    }
+
+    .design-text-second .btn {
+        margin-bottom: 20px;
+    }
+
+    /* design-end */
+
+    /* How it work  */
+
+    .work-text h3 {
+        font-size: 2.5em;
+        margin: 0px 15px 5px;
+    }
+    .work-text p {
+        font-size: 1em;
+        margin: 0px 15px 0px;
+    }
+    .work-text .btn {
+        margin: 15px 15px 0px;
+    }
+    .work-image img {
+        margin: -91px auto 35px 0;
+    }
+
+    /* How it work-end */
+    /* join us */
+    .form{
+        margin: 0;
+    }
+    /* join us-end */
+
+    .contact-img img {
+        width: 322px;
+    }
+}
